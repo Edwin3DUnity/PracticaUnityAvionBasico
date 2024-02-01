@@ -2616,6 +2616,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 555767004, guid: aea2a6cdcc9d7944090d528486ebaee1, type: 3}
+      propertyPath: turnSpeed
+      value: 12
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea2a6cdcc9d7944090d528486ebaee1, type: 3}
 --- !u!1 &507969264 stripped
@@ -2747,14 +2751,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
-  m_LocalRotation: {x: 0.1762926, y: -0.08551784, z: 0.015375871, w: 0.9804954}
+  m_LocalRotation: {x: 0.052335896, y: 0, z: 0, w: 0.9986295}
   m_LocalPosition: {x: 5.5171204, y: 11.873661, z: -73.58614}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 5, y: -90, z: 0}
+  m_LocalEulerAnglesHint: {x: 6, y: 0, z: 0}
 --- !u!114 &534669906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2768,6 +2772,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 555766999}
+  offset: {x: 3.6, y: 4.54, z: -9.68}
 --- !u!1001 &551844500
 PrefabInstance:
   m_ObjectHideFlags: 0
