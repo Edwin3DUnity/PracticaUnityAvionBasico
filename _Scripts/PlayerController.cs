@@ -25,8 +25,9 @@ public class PlayerController : MonoBehaviour
     {
         horizontal = Input.GetAxis("Horizontal");
         vertical = Input.GetAxis("Vertical");
-        
-        transform.Translate(Vector3.forward * Time.deltaTime * speed );
-        transform.Translate(Vector3.right * Time.deltaTime * turnSpeed * horizontal);
+
+
+        transform.Translate(Vector3.forward * speed * Time.deltaTime * vertical);
+        transform.Rotate(Vector3.up * turnSpeed * Time.deltaTime * horizontal);
     }
 }
